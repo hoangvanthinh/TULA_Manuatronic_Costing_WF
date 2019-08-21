@@ -65,7 +65,11 @@ namespace How_to_create_HMI_Control_Real_Time
 
         const int ADD_TIME_DROP = 40;
 
-        const int ADD_REPORT_FILE_LOAD_OK = 41;
+        const int ADD_deX = 41;
+        const int ADD_deY = 42;
+        const int ADD_numcopy_array = 43;
+
+        const int ADD_REPORT_FILE_LOAD_OK = 44;
         //=======================================================================
 
         const int LOW =1;
@@ -716,8 +720,8 @@ namespace How_to_create_HMI_Control_Real_Time
             {
                 if (_step == 1)  
                 {
-                    MoveXY(X1_spray[hanhtrinh_so], Y1_spray[hanhtrinh_so]);
-
+                    //MoveXY(X1_spray[hanhtrinh_so], Y1_spray[hanhtrinh_so]);
+                    MoveXY(X1_spray[hanhtrinh_so] + deX * (_cell_number - 1), Y1_spray[hanhtrinh_so] + deY * (_cell_number - 1));
                     _runX = _runY = 1;
                     _step++;
                 }
@@ -872,17 +876,7 @@ namespace How_to_create_HMI_Control_Real_Time
                 }
                 else if(_step == 7 && _runZ == 0)
                 {
-                    //if (hanhtrinh_so < hanhtrinh)  // het mot doi tuong, con doi tuong tiep theo
-                    //{
-                    //    hanhtrinh_so++;
-                    //    _step = 1;
-                    //}
-                    //else
-                    //{
-                    //    MoveZ(Zmovewaiting);
-                    //    _runZ = 1;
-                    //    _step++;
-                    //}
+
                     if (hanhtrinh_so < hanhtrinh)
                     {
                         hanhtrinh_so++;
@@ -1891,9 +1885,16 @@ namespace How_to_create_HMI_Control_Real_Time
             Numbercopy = BitConverter.ToUInt16(val16, 0);
             Number_copy.Text = Numbercopy.ToString();
 
-            //deX = Math.Abs(OFnx - OF1x);
-            deX = (OFnx - OF1x) / (Numbercopy - 1);
-            deY = (OFny - OF1y) / (Numbercopy - 1); 
+     
+            if (Numbercopy == 1)
+            {
+                deX = deY = 0;
+            }
+            else if (Numbercopy > 1)
+            {
+                deX = Math.Abs(OFnx - OF1x) / (Numbercopy - 1);
+                deY = Math.Abs(OFny - OF1y) / (Numbercopy - 1);
+            }
 
         }
 
@@ -2155,6 +2156,10 @@ namespace How_to_create_HMI_Control_Real_Time
             MB.WriteSingleRegister(ADD_ZDSP, Dsp_Z);
 
             MB.WriteSingleRegister(ADD_TIME_DROP, Time_Drop);
+
+            MB.WriteSingleRegister(ADD_deX, deX);
+            MB.WriteSingleRegister(ADD_deY, deY);
+            MB.WriteSingleRegister(ADD_numcopy_array, Numbercopy);
 
             MessageBox.Show("DOWLOAD COMPLETE!");
             // ========================= BAO CAO DA TRUYEN FILE XONG  =================================
