@@ -142,9 +142,7 @@ namespace How_to_create_HMI_Control_Real_Time
         int _tangbacXY = 1;
 
         int deX = 0, deY = 0,_cell_number = 1;
-        //tes1
-        //12
-        //21344567
+
         // ----------------- SAVE DATA -------------------------------
         byte[] data = new byte[240];
 
