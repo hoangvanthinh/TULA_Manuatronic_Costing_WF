@@ -759,6 +759,17 @@ namespace How_to_create_HMI_Control_Real_Time
                 }
                 else if(_step == 6 && _runZ == 0)
                 {
+                    //if (hanhtrinh_so < hanhtrinh)
+                    //{
+                    //    hanhtrinh_so++;
+                    //    _step = 1;
+                    //}
+                    //else
+                    //{
+                    //    MoveZ(Zmovewaiting);
+                    //    _step++;
+
+                    //}
                     if (hanhtrinh_so < hanhtrinh)
                     {
                         hanhtrinh_so++;
@@ -766,10 +777,19 @@ namespace How_to_create_HMI_Control_Real_Time
                     }
                     else
                     {
-                        MoveZ(Zmovewaiting);
-                        _step++;
-
-                    }
+                        if (_cell_number >= Numbercopy)
+                        {
+                            MoveZ(Zmovewaiting);
+                            _runZ = 1;
+                            _step++;
+                        }
+                        else
+                        {
+                            _cell_number++;
+                            hanhtrinh_so = 1;
+                            _step = 1;
+                        }
+                    } 
                 }
                 else if(_step == 7 && _runZ == 0)
                 {
@@ -791,8 +811,8 @@ namespace How_to_create_HMI_Control_Real_Time
                 if (_step == 1)  
                 {
  
-                    MoveXY(X1_spray[hanhtrinh_so], Y1_spray[hanhtrinh_so]);
-
+                    //MoveXY(X1_spray[hanhtrinh_so], Y1_spray[hanhtrinh_so]);
+                    MoveXY(X1_spray[hanhtrinh_so] + deX * (_cell_number - 1), Y1_spray[hanhtrinh_so] + deY * (_cell_number - 1));
                     _runX = _runY = 1;
                     _step++;
                 }
@@ -809,7 +829,8 @@ namespace How_to_create_HMI_Control_Real_Time
                 }
                 else if(_step == 4)
                 {
-                    MoveXY(X2_spray[hanhtrinh_so], Y2_spray[hanhtrinh_so]);
+                    //MoveXY(X2_spray[hanhtrinh_so], Y2_spray[hanhtrinh_so]);
+                    MoveXY(X2_spray[hanhtrinh_so] + deX * (_cell_number - 1), Y2_spray[hanhtrinh_so] + deY * (_cell_number - 1));
 
                     Draw_hanhtrinh(X1_spray[hanhtrinh_so], Y1_spray[hanhtrinh_so], X2_spray[hanhtrinh_so], Y2_spray[hanhtrinh_so]);
 
@@ -851,17 +872,37 @@ namespace How_to_create_HMI_Control_Real_Time
                 }
                 else if(_step == 7 && _runZ == 0)
                 {
-                    if (hanhtrinh_so < hanhtrinh)  // het mot doi tuong, con doi tuong tiep theo
+                    //if (hanhtrinh_so < hanhtrinh)  // het mot doi tuong, con doi tuong tiep theo
+                    //{
+                    //    hanhtrinh_so++;
+                    //    _step = 1;
+                    //}
+                    //else
+                    //{
+                    //    MoveZ(Zmovewaiting);
+                    //    _runZ = 1;
+                    //    _step++;
+                    //}
+                    if (hanhtrinh_so < hanhtrinh)
                     {
                         hanhtrinh_so++;
                         _step = 1;
                     }
                     else
                     {
-                        MoveZ(Zmovewaiting);
-                        _runZ = 1;
-                        _step++;
-                    }
+                        if (_cell_number >= Numbercopy)
+                        {
+                            MoveZ(Zmovewaiting);
+                            _runZ = 1;
+                            _step++;
+                        }
+                        else
+                        {
+                            _cell_number++;
+                            hanhtrinh_so = 1;
+                            _step = 1;
+                        }
+                    } 
                     
                 }
 
