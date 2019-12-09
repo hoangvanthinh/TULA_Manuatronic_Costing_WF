@@ -995,7 +995,7 @@ namespace How_to_create_HMI_Control_Real_Time
                 else if(_step == 4)
                 {
                     MoveXY(X2_spray[hanhtrinh_so] + _dStepX, Y1_spray[hanhtrinh_so] + _dStepY);
-                    Draw_hanhtrinh(_coodinateX + _dStepX, _coodinateY + _dStepY, X2_spray[hanhtrinh_so] + _dStepX, Y1_spray[hanhtrinh_so] + _dStepY);
+                    Draw_hanhtrinh(_coodinateX + _dStepX, _coodinateY + _dStepY, X2_spray[hanhtrinh_so] + _dStepX, Y1_spray[hanhtrinh_so] + _dStepX);
                     _runX = _runY = 1;
                     _step++;
                 }
@@ -2189,7 +2189,6 @@ namespace How_to_create_HMI_Control_Real_Time
 
         private void Dowload_data_but_Click(object sender, EventArgs e)
         {
-            Dowload_data_but.Enabled = false;
             //========================== TAT TIMER1 ==============================================
             timer1.Enabled = false;
             //========================== YEU CAU DOWLOAD DATA ====================================
@@ -2323,14 +2322,11 @@ namespace How_to_create_HMI_Control_Real_Time
             MB.WriteSingleRegister(ADD_REPORT_FILE_LOAD_OK, 1);
 
             //========================== XOA YEU CAU DOWLOAD DU LIEU ===================================
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
             MB.WriteSingleRegister(ADD_REPORT_FILE_LOAD_OK, 0);
             MB.WriteSingleRegister(ADD_REQ_DOWLOAD, 0);
             Loaddata_progress.Value = 100;
             timer1.Enabled = true;
-            Dowload_data_but.Enabled = true;
-           // Req_GOHOME();
-
         }
 
         private void Set_speed_manual_Scroll(object sender, EventArgs e)
@@ -2775,44 +2771,38 @@ namespace How_to_create_HMI_Control_Real_Time
             {
                 //--------------------- X1 ------------------------
                 val = Convert.ToUInt16(int.Parse(DT.Rows[i].Cells[2].Value.ToString()) + Co_Calib.dX);
-                DT.Rows[i].Cells[2].Value = val;
-                //val16 = BitConverter.GetBytes(val);
-                //data[Add_START + i * SIZE_DATA + 1] = val16[0]; 
-                //data[Add_START + i * SIZE_DATA + 2] = val16[1];
+               
+                val16 = BitConverter.GetBytes(val);
+                data[Add_START + i * SIZE_DATA + 1] = val16[0]; 
+                data[Add_START + i * SIZE_DATA + 2] = val16[1];
                 //--------------------- Y1 ------------------------
-                //val = ushort.Parse(DT.Rows[i].Cells[3].Value.ToString());
-                val = Convert.ToUInt16(int.Parse(DT.Rows[i].Cells[3].Value.ToString()) + Co_Calib.dY);
-                DT.Rows[i].Cells[3].Value = val;
-                //val16 = BitConverter.GetBytes(val);
-                //data[Add_START + i * SIZE_DATA + 3] = val16[0];
-                //data[Add_START + i * SIZE_DATA + 4] = val16[1];
+                val = ushort.Parse(DT.Rows[i].Cells[3].Value.ToString());
+                val16 = BitConverter.GetBytes(val);
+                data[Add_START + i * SIZE_DATA + 3] = val16[0];
+                data[Add_START + i * SIZE_DATA + 4] = val16[1];
 
                 //--------------------- Z1 ------------------------------------------------------------
-                //val = ushort.Parse(DT.Rows[i].Cells[4].Value.ToString());
-                //val16 = BitConverter.GetBytes(val);
-                //data[Add_START + i * SIZE_DATA + 5] = val16[0];
-                //data[Add_START + i * SIZE_DATA + 6] = val16[1];
+                val = ushort.Parse(DT.Rows[i].Cells[4].Value.ToString());
+                val16 = BitConverter.GetBytes(val);
+                data[Add_START + i * SIZE_DATA + 5] = val16[0];
+                data[Add_START + i * SIZE_DATA + 6] = val16[1];
 
                 //--------------------- X2 ------------------------
-                //val = ushort.Parse(DT.Rows[i].Cells[5].Value.ToString());
-                val = Convert.ToUInt16(int.Parse(DT.Rows[i].Cells[5].Value.ToString()) + Co_Calib.dX);
-                DT.Rows[i].Cells[5].Value = val;
-                //val16 = BitConverter.GetBytes(val);
-                //data[Add_START + i * SIZE_DATA + 7] = val16[0];
-                //data[Add_START + i * SIZE_DATA + 8] = val16[1];
+                val = ushort.Parse(DT.Rows[i].Cells[5].Value.ToString());
+                val16 = BitConverter.GetBytes(val);
+                data[Add_START + i * SIZE_DATA + 7] = val16[0];
+                data[Add_START + i * SIZE_DATA + 8] = val16[1];
                 //--------------------- Y2 ------------------------
-                //val = ushort.Parse(DT.Rows[i].Cells[6].Value.ToString());
-                val = Convert.ToUInt16(int.Parse(DT.Rows[i].Cells[6].Value.ToString()) + Co_Calib.dY);
-                DT.Rows[i].Cells[6].Value = val;
-                //val16 = BitConverter.GetBytes(val);
-                //data[Add_START + i * SIZE_DATA + 9] = val16[0];
-                //data[Add_START + i * SIZE_DATA + 10] = val16[1];
+                val = ushort.Parse(DT.Rows[i].Cells[6].Value.ToString());
+                val16 = BitConverter.GetBytes(val);
+                data[Add_START + i * SIZE_DATA + 9] = val16[0];
+                data[Add_START + i * SIZE_DATA + 10] = val16[1];
 
                 //--------------------- Z2 ------------------------
-                //val = ushort.Parse(DT.Rows[i].Cells[7].Value.ToString());
-                //val16 = BitConverter.GetBytes(val);
-                //data[Add_START + i * SIZE_DATA + 11] = val16[0];
-                //data[Add_START + i * SIZE_DATA + 12] = val16[1];             
+                val = ushort.Parse(DT.Rows[i].Cells[7].Value.ToString());
+                val16 = BitConverter.GetBytes(val);
+                data[Add_START + i * SIZE_DATA + 11] = val16[0];
+                data[Add_START + i * SIZE_DATA + 12] = val16[1];             
             }
   
         }
@@ -2831,7 +2821,6 @@ namespace How_to_create_HMI_Control_Real_Time
                 OFn_X.Text = NFn_X.Text;
                 OFn_Y.Text = NFn_Y.Text;
 
-                Calibration_cood();
 
                 MessageBox.Show("Calibration Compelete: " + "dX:" + Co_Calib.dX.ToString() + " dY:" + Co_Calib.dY.ToString());
           

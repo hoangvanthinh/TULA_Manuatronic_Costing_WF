@@ -107,3 +107,124 @@ F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.5_200819_copy_array\HMI Label 
 F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.5_200819_copy_array\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
 F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.5_200819_copy_array\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
 F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.5_200819_copy_array\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\10. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\11. Chamkeo_v3.6_280819\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.7_290819_dxdy\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.8_300819_Sxsy\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.8_300819_Sxsy\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\12. Chamkeo_v3.8_300819_Sxsy\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\13. Chamkeo_v3.9_300819\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\13. Chamkeo_v3.9_300819\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\13. Chamkeo_v3.9_300819\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\13. Chamkeo_v3.10_310819_Keo_2108G\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\13. Chamkeo_v3.10_310819_Keo_2108G\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\13. Chamkeo_v3.10_310819_Keo_2108G\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\15. Chamkeo_v3.11_040919\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\16. Chamkeo_v3.12_040919_Sequential\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\17. Chamkeo_v3.13_050919_file\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\18. Chamkeo_v3.14_090919_inserted\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\19. Chamkeo_v3.15_100919\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\20. Chamkeo_v3.16_110919\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\21. Chamkeo_v3.17_calib_dxdy\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.pdb
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csprojResolveAssemblyReference.cache
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.FormMain.resources
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.Properties.Resources.resources
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\obj\Debug\How_to_create_HMI_Control_Real_Time.System_config.resources
+F:\Project\Tula\Maychamkeo\Code\PC\22. Chamkeo_v3.18_Feedback_FMC\HMI Label And Editor Control\obj\Debug\HMI Label And Editor Control.csproj.GenerateResource.Cache
+F:\Project\Tula\Maychamkeo\Code\PC\23. Chamkeo_v3.19_complete\HMI Label And Editor Control\bin\Debug\How to create HMI Control Real-Time.exe.config
+F:\Project\Tula\Maychamkeo\Code\PC\23. Chamkeo_v3.19_complete\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.exe
+F:\Project\Tula\Maychamkeo\Code\PC\23. Chamkeo_v3.19_complete\HMI Label And Editor Control\obj\Debug\How to create HMI Control Real-Time.pdb
