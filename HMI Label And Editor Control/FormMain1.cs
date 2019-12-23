@@ -15,7 +15,7 @@ using EasyModbus;
 
 using System.Drawing.Imaging;
 
-
+///lres
 
 namespace How_to_create_HMI_Control_Real_Time
 {
