@@ -257,8 +257,7 @@ namespace How_to_create_HMI_Control_Real_Time
                 timer1.Enabled = true;
 
                // DT.CancelEdit();
-                linkLabel2.Text = "Click here to get more info.";
-                linkLabel2.Links.Add(6,4,"www.tula.vn");
+
                 
 
 
@@ -2131,8 +2130,11 @@ namespace How_to_create_HMI_Control_Real_Time
                 if (String.Compare(DT.Rows[i].Cells[1].Value.ToString(), "Line") == 0)
                     DT.Rows[i].DefaultCellStyle.BackColor = Color.Red;
                 if (String.Compare(DT.Rows[i].Cells[1].Value.ToString(), "RECTANG") == 0)
-                    DT.Rows[i].DefaultCellStyle.BackColor = Color.Yellow; 
+                    DT.Rows[i].DefaultCellStyle.BackColor = Color.Yellow;
+
+                DT.Rows[i].DefaultCellStyle.ForeColor = Color.Black;
             }
+            
         }
         private void Delete_Click(object sender, EventArgs e)
         {
@@ -2841,6 +2843,11 @@ namespace How_to_create_HMI_Control_Real_Time
             {
                 MessageBox.Show("OF1-OFn Null");
             }
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

@@ -43,7 +43,6 @@
             this.Automanual = new System.Windows.Forms.Button();
             this.Select_Speed = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Manual = new System.Windows.Forms.GroupBox();
             this.PUMP = new System.Windows.Forms.Button();
             this.checkBox_Dispenser = new System.Windows.Forms.CheckBox();
@@ -163,8 +162,7 @@
             this.Add_file = new System.Windows.Forms.Button();
             this.File_name = new System.Windows.Forms.TextBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.update_cood = new System.Windows.Forms.GroupBox();
             this.check_Sequential = new System.Windows.Forms.CheckBox();
             this.DK_XYZ = new System.Windows.Forms.GroupBox();
@@ -172,8 +170,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Project_Lab = new System.Windows.Forms.Label();
             this.Project_running = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.Manual.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Set_speed_manual)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DT)).BeginInit();
@@ -186,10 +186,10 @@
             this.FMC.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.update_cood.SuspendLayout();
             this.DK_XYZ.SuspendLayout();
             this.DK_AUTO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // HOME
@@ -340,16 +340,6 @@
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1000, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(350, 75);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 116;
-            this.pictureBox2.TabStop = false;
-            // 
             // Manual
             // 
             this.Manual.BackColor = System.Drawing.Color.Black;
@@ -445,56 +435,56 @@
             // 
             // Toado_Y
             // 
-            this.Toado_Y.Location = new System.Drawing.Point(102, 111);
+            this.Toado_Y.Location = new System.Drawing.Point(102, 110);
             this.Toado_Y.Name = "Toado_Y";
             this.Toado_Y.Size = new System.Drawing.Size(100, 20);
             this.Toado_Y.TabIndex = 132;
             // 
             // _SPR
             // 
-            this._SPR.Location = new System.Drawing.Point(102, 155);
+            this._SPR.Location = new System.Drawing.Point(102, 156);
             this._SPR.Name = "_SPR";
             this._SPR.Size = new System.Drawing.Size(100, 20);
             this._SPR.TabIndex = 134;
             // 
             // Toado_Z
             // 
-            this.Toado_Z.Location = new System.Drawing.Point(102, 132);
+            this.Toado_Z.Location = new System.Drawing.Point(102, 133);
             this.Toado_Z.Name = "Toado_Z";
             this.Toado_Z.Size = new System.Drawing.Size(100, 20);
             this.Toado_Z.TabIndex = 133;
             // 
             // UpDownStop
             // 
-            this.UpDownStop.Location = new System.Drawing.Point(102, 246);
+            this.UpDownStop.Location = new System.Drawing.Point(102, 248);
             this.UpDownStop.Name = "UpDownStop";
             this.UpDownStop.Size = new System.Drawing.Size(100, 20);
             this.UpDownStop.TabIndex = 138;
             // 
             // Auto_manual
             // 
-            this.Auto_manual.Location = new System.Drawing.Point(102, 219);
+            this.Auto_manual.Location = new System.Drawing.Point(102, 225);
             this.Auto_manual.Name = "Auto_manual";
             this.Auto_manual.Size = new System.Drawing.Size(100, 20);
             this.Auto_manual.TabIndex = 137;
             // 
             // Status_Home
             // 
-            this.Status_Home.Location = new System.Drawing.Point(102, 197);
+            this.Status_Home.Location = new System.Drawing.Point(102, 202);
             this.Status_Home.Name = "Status_Home";
             this.Status_Home.Size = new System.Drawing.Size(100, 20);
             this.Status_Home.TabIndex = 136;
             // 
             // LIMIT_Z
             // 
-            this.LIMIT_Z.Location = new System.Drawing.Point(102, 173);
+            this.LIMIT_Z.Location = new System.Drawing.Point(102, 179);
             this.LIMIT_Z.Name = "LIMIT_Z";
             this.LIMIT_Z.Size = new System.Drawing.Size(100, 20);
             this.LIMIT_Z.TabIndex = 135;
             // 
             // Tocdo_dichuyen
             // 
-            this.Tocdo_dichuyen.Location = new System.Drawing.Point(102, 295);
+            this.Tocdo_dichuyen.Location = new System.Drawing.Point(102, 294);
             this.Tocdo_dichuyen.Name = "Tocdo_dichuyen";
             this.Tocdo_dichuyen.Size = new System.Drawing.Size(100, 20);
             this.Tocdo_dichuyen.TabIndex = 140;
@@ -618,9 +608,12 @@
             // 
             // DT
             // 
+            this.DT.BackgroundColor = System.Drawing.Color.Black;
+            this.DT.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DT.ContextMenuStrip = this.contextMenuStrip1;
-            this.DT.Location = new System.Drawing.Point(736, 111);
+            this.DT.GridColor = System.Drawing.Color.Black;
+            this.DT.Location = new System.Drawing.Point(736, 104);
             this.DT.Name = "DT";
             this.DT.Size = new System.Drawing.Size(618, 343);
             this.DT.TabIndex = 156;
@@ -685,10 +678,10 @@
             this.Add.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Add.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Add.ForeColor = System.Drawing.Color.Black;
-            this.Add.Location = new System.Drawing.Point(377, 36);
+            this.Add.Location = new System.Drawing.Point(377, 33);
             this.Add.Name = "Add";
             this.Add.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Add.Size = new System.Drawing.Size(63, 65);
+            this.Add.Size = new System.Drawing.Size(63, 52);
             this.Add.TabIndex = 157;
             this.Add.Text = ">>";
             this.Add.UseVisualStyleBackColor = true;
@@ -878,7 +871,7 @@
             // 
             this.NB_steps.AutoSize = true;
             this.NB_steps.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NB_steps.Location = new System.Drawing.Point(69, 95);
+            this.NB_steps.Location = new System.Drawing.Point(102, 93);
             this.NB_steps.Name = "NB_steps";
             this.NB_steps.Size = new System.Drawing.Size(106, 16);
             this.NB_steps.TabIndex = 181;
@@ -886,9 +879,9 @@
             // 
             // Number_step
             // 
-            this.Number_step.Location = new System.Drawing.Point(192, 91);
+            this.Number_step.Location = new System.Drawing.Point(223, 91);
             this.Number_step.Name = "Number_step";
-            this.Number_step.Size = new System.Drawing.Size(53, 20);
+            this.Number_step.Size = new System.Drawing.Size(55, 20);
             this.Number_step.TabIndex = 182;
             // 
             // textBox1
@@ -948,6 +941,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(65, 20);
             this.textBox7.TabIndex = 184;
+            this.textBox7.Visible = false;
             // 
             // textBox6
             // 
@@ -955,6 +949,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(65, 20);
             this.textBox6.TabIndex = 183;
+            this.textBox6.Visible = false;
             // 
             // textBox5
             // 
@@ -962,6 +957,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 182;
+            this.textBox5.Visible = false;
             // 
             // textBox4
             // 
@@ -969,6 +965,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 181;
+            this.textBox4.Visible = false;
             // 
             // textBox3
             // 
@@ -976,6 +973,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 180;
+            this.textBox3.Visible = false;
             // 
             // Z_limit_label
             // 
@@ -1487,39 +1485,30 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.linkLabel2);
-            this.tabPage1.Controls.Add(this.pictureBox3);
+            this.tabPage1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage1.Controls.Add(this.label22);
+            this.tabPage1.Controls.Add(this.label21);
+            this.tabPage1.Controls.Add(this.pictureBox2);
+            this.tabPage1.Controls.Add(this.label20);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(610, 194);
             this.tabPage1.TabIndex = 6;
             this.tabPage1.Text = "About Tula";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // linkLabel2
+            // label20
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.Location = new System.Drawing.Point(230, 130);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(119, 20);
-            this.linkLabel2.TabIndex = 119;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Go to wedsite!!!";
-            this.linkLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked_1);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(125, 18);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(362, 74);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 118;
-            this.pictureBox3.TabStop = false;
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(6, 118);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(120, 65);
+            this.label20.TabIndex = 120;
+            this.label20.Text = "T-Coat M1 \r\nVersion: 3.20.02012020\r\nTULA Solution Co.,Ltd\r\nCopyright © 2005-2019\r" +
+    "\nAll right reserved";
             // 
             // update_cood
             // 
@@ -1547,7 +1536,7 @@
             this.update_cood.Controls.Add(this.T_X);
             this.update_cood.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.update_cood.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.update_cood.Location = new System.Drawing.Point(255, 99);
+            this.update_cood.Location = new System.Drawing.Point(255, 95);
             this.update_cood.Name = "update_cood";
             this.update_cood.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.update_cood.Size = new System.Drawing.Size(450, 119);
@@ -1557,7 +1546,7 @@
             // check_Sequential
             // 
             this.check_Sequential.AutoSize = true;
-            this.check_Sequential.Location = new System.Drawing.Point(273, 94);
+            this.check_Sequential.Location = new System.Drawing.Point(306, 96);
             this.check_Sequential.Name = "check_Sequential";
             this.check_Sequential.Size = new System.Drawing.Size(98, 17);
             this.check_Sequential.TabIndex = 183;
@@ -1600,7 +1589,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(102, 321);
+            this.textBox2.Location = new System.Drawing.Point(102, 317);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 186;
@@ -1626,24 +1615,53 @@
             this.Project_running.Size = new System.Drawing.Size(0, 22);
             this.Project_running.TabIndex = 188;
             // 
-            // label6
+            // pictureBox2
             // 
-            this.label6.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoEllipsis = true;
-            this.label6.BackColor = System.Drawing.Color.Yellow;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Font = new System.Drawing.Font("OCR-B 10 BT", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(255, 12);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(739, 64);
-            this.label6.TabIndex = 5;
-            this.label6.Text = " Desktop Automatic Dispensing Robot";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label6.UseMnemonic = false;
+            this.pictureBox2.Image = global::TCoat_M1.Properties.Resources.Capture;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(102, 104);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 122;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(290, 118);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(263, 65);
+            this.label21.TabIndex = 123;
+            this.label21.Text = "Head-Office: \r\nNo. 6 Lane 23, Dinh Thon street, My Dinh ward\r\nNam Tu Liem Dist., " +
+    "Ha Noi, Vietnam\r\nTel./ Fax: +84-24.39655633,  Hotline: +84-912612693\r\nE-mail: in" +
+    "fo@tula.vn";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Modern No. 20", 38.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label22.Location = new System.Drawing.Point(133, 40);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(375, 53);
+            this.label22.TabIndex = 124;
+            this.label22.Text = "TULA Solution ";
+            // 
+            // textBox8
+            // 
+            this.textBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
+            this.textBox8.BackColor = System.Drawing.Color.Gold;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox8.Font = new System.Drawing.Font("OCR A Extended", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.ForeColor = System.Drawing.Color.Red;
+            this.textBox8.Location = new System.Drawing.Point(255, 20);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(1099, 44);
+            this.textBox8.TabIndex = 189;
+            this.textBox8.Text = " MÁY PHUN KEO T-COAT M1";
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // FormMain
             // 
@@ -1652,6 +1670,7 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1366, 694);
+            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.Project_running);
             this.Controls.Add(this.Project_Lab);
             this.Controls.Add(this.textBox2);
@@ -1682,18 +1701,15 @@
             this.Controls.Add(this.Toado_Y);
             this.Controls.Add(this.Toado_X);
             this.Controls.Add(this.Manual);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label6);
             this.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormMain";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.Text = "TULA Dispensing Robot v3.19.011019";
+            this.Text = "T-COAT M1 3.20.02012020";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormMain_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.Manual.ResumeLayout(false);
             this.Manual.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Set_speed_manual)).EndInit();
@@ -1713,12 +1729,12 @@
             this.tabPage3.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.update_cood.ResumeLayout(false);
             this.update_cood.PerformLayout();
             this.DK_XYZ.ResumeLayout(false);
             this.DK_XYZ.PerformLayout();
             this.DK_AUTO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1740,7 +1756,6 @@
         private System.Windows.Forms.Button Select_Speed;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox Manual;
         private System.Windows.Forms.Button Pause;
         private System.Windows.Forms.Button Start_auto;
@@ -1853,8 +1868,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
@@ -1869,7 +1882,11 @@
         private System.Windows.Forms.TextBox NF1_X;
         private System.Windows.Forms.CheckBox checkBox_ReqCalib;
         private System.Windows.Forms.GroupBox Calib_Zig;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }
 

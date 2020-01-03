@@ -7,8 +7,8 @@
     <ProjectGuid>{5D593605-3723-499D-9275-40627CCCDA29}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>How_to_create_HMI_Control_Real_Time</RootNamespace>
-    <AssemblyName>How to create HMI Control Real-Time</AssemblyName>
+    <RootNamespace>TCoat_M1</RootNamespace>
+    <AssemblyName>TCoat_M1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon %281%29.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EasyModbus, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -107,6 +110,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon %281%29.ico" />
+    <None Include="Resources\Capture.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
